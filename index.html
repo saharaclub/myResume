@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ashraf Hamza Resume</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,80 +15,178 @@
                 font-weight: 300;
                 font-style: normal;
                 padding: 40px;
+                max-width: 1000px;
+                margin: 0 auto;
+                line-height: 1.6;
+                background: #f9f9f9; 
+                color: #333;
+            }
+
+            .resume-all {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                padding: 20px;
+            }
+
+            p, li {
+            line-height: 1.6; 
+            text-align: justify;
+            font-size: large; 
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+
+            ul li::before {
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+
+            h1 {
+                
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 20px;
+                border-bottom: 2px solid #333; 
+                padding-bottom: 10px; 
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            h2 {
+                font-size: 30px;
+                margin-top: 30px; 
+                margin-bottom: 15px;
+            }
+
+            a {
+                color: #0073e6; 
+                text-decoration: none; 
+                transition: color 0.3s ease; 
+            }
+
+            a:hover {
+                color: #005bb5;
+                text-decoration: underline; 
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ccc; 
+                font-size: 14px;
+                color: #666; 
+            }
+
+            hr {
+                margin: 30px 0; 
+                border: 0;
+                border-top: 1px solid #ccc; 
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 40px; 
+                }
+
+                h2 {
+                    font-size: 24px; 
+                }
+
+                body {
+                    padding: 20px; 
+                }
+
+                p, li {
+                    line-height: 1.6; 
+                    text-align: justify;
+                    font-size: medium; 
+                }
             }
         </style>
-
     </head>
 
     <body>
-        <h1>Ashraf Hamza</h1> 
+        <div class="resume-all">
+            <div>
+                <h1>Ashraf Hamza</h1>
+            </div>
 
-            <h2>Summary</h2>
-            <p>Originally from Egypt and living in Japan since 2011. I have been working in Ad tech industry since 2016.</p>
-            <p>Having the experience of working at Adways (a well-known Japanese advertising agency), I built a better understanding of the Ad tech industry in Japan, and I learnt how important it is for clients to achieve their goals & KPIs.</p>
-            <p>Followed by 4 years at Adjust (the mobile ads measurement company) working closely with app developer clients, tens of ad tech partners and agencies as the team lead of the technical support team in Japan and INSEA regions. I established a solid know-how on how to retain clients by delivering outstanding problem-solving support, maintain the same level of excellency across APAC region, and build strong client facing team.</p>
-            <p>My role at Flux, was to build up the entire App business from scratch. Starting by identifying the entry point to the app industry, establish business operation and functions, and build up the app team to grow the new-born SaaS business.<br />
-                Flux is a Japanese AdTech start-up. And I am the 1st hire of Flux’s app team.</p>
+            <div>
+                <h2>Career Summary</h2>
+            </div>
+            <div>
+                <p>Originally from Egypt and living in Japan since 2011. I have been working in Ad tech industry since 2016.</p>
+                <p>Having the experience of working at Adways (a Japanese advertising agency), I built a better understanding of the Ad tech industry in Japan, and I learnt to achieve clients' goals & KPIs.</p>
+                <p>Followed by 4 years at Adjust (the mobile ads measurement company) working closely with app developer clients, tens of ad tech partners and agencies as the team lead of the technical support team in Japan and INSEA regions. I established a solid know-how on how to retain clients by delivering outstanding problem-solving support, maintain the same level of excellency across APAC region, and build strong client facing team.</p>
+                <p>My role at Flux, was to build up the entire App business from scratch. Starting by identifying the entry point to the app industry, establish business operation and functions, and build up the app team to grow the new-born SaaS business. Flux is a Japanese AdTech start-up. And I am the 1st hire of Flux’s app team.</p>
+            </div>
             <hr/>
+            <div>
+                <h2>Work Experience</h2>
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Product Lead - Japan | Flux Inc. <br /> (Nov/2022 - April/2024)</h3>
+                        <ul>
+                            <li>Led research and planning for mobile app solutions.</li>
+                            <li>Established goals and go-to-market strategy for the app business.</li>
+                            <li>Interviewed clients and partners to assess market demands and solutions.</li>
+                            <li>Conducted product market fit pitches, market sizing, and profitability analysis.</li>
+                            <li>Developed an in-depth knowledge library for app products, including how-to manuals.</li>
+                            <li>Delivered educational workshops and Q&A sessions for sales and customer success teams.</li>
+                            <li>Negotiated partnerships with global tech companies like Applovin, Adjust, Magnite, GeoEdge, Pangle, App Samurai, and Smaato.</li>
+                            <li>Collaborated with internal teams across development, product, and sales.</li>
+                            <li>Main Project: Programmatic ad monetization solution (Prebid Header Bidding SDK)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Head of Operations - Japan | GumGum Inc. <br /> (Jan/2022 - July/2022) </h3>
+                        <ul>
+                            <li>Managed a 10-member operations team in Japan, including account managers, ad operations specialists, creative designers, and programmatic solution specialists.</li>
+                            <li>Collaborated with HR to create coaching and career-path plans, implementing them through weekly 1:1s and casual check-ins.</li>
+                            <li>Oversaw the implementation of GumGum’s advertising products and technologies, supporting both direct and programmatic campaigns.</li>
+                            <li>Worked closely with leadership teams from HQ in LA and regional HQ in Sydney to incorporate best practices and keep all parties updated on status and issues, adapting solutions for the Japanese market.</li>
+                            <li>Identified market needs to optimize operational excellence and customer service.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Team Lead Technical Account Management | Adjust <br /> (Oct/2017 – Dec/2021) </h3>
+                        <ul>
+                            <li>Led a team of 15 account managers across Japan, Korea, India, and SEA, overseeing project coordination and training programs.</li>
+                            <li>Collaborated closely with regional sales and technical support leadership.</li>
+                            <li>Supported medium and large-scale Japanese and global clients, resolving technical challenges and maximizing product usage to enhance satisfaction and reduce churn.</li>
+                            <li>Provided tailored guidance and consultation to top market players across industries like Gaming, E-commerce, News, Telecom, Dating, Comics, Recruitment, Banking, and VOD.</li>
+                            <li>Worked daily with the customer success team to define client consultation strategies, including calls, QBRs, technical inquiries, and updates.</li>
+                            <li>Collected client feedback and feature requests, sharing with product and tech teams to drive new solutions.</li>
+                            <li>Participated in new feature development by onboarding beta clients and coordinating implementation with internal teams.</li>
+                            <li>Acted as a subject matter expert, advising on complex issues, attending critical client meetings, and speaking at seminars and educational workshops.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Digital Advertising Operation | Adways Inc <br /> (Feb/2016 - Sep/2017)</h3>
+                        <ul>
+                            <li>Worked closely with sales team from proposal to deal closing by providing customized advertising strategy for client’s campaigns.</li>
+                            <li>Planned and managing inbound/outbound digital ads at several media platforms with focus on SNS (Facebook, Twitter, Google, nend, imobile, Amoad and etc.).</li>
+                            <li>Managed digital ads with average monthly budget of 20M¥.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    BSC / Tourism from Alexandria Universary, EGYPT | 2001 - 2005
-                    <ul><li>4 years study specialized in Egyptology, economy, foreign languages (English/ Japanese) and tourism industry.</li>
-                    </ul>
-                </li>
-            </ul>
-            
             <hr/>
-            <h2>Work Experience</h2>
-            <ul>
-                <li><h3>Product Lead - Japan | Flux Inc. <br /> (Nov/2022 - April/2024)</h3>
-                    <ul>
-                        <li>Led research and planning for mobile app solutions.</li>
-                        <li>Established goals and go-to-market strategy for the app business.</li>
-                        <li>Interviewed clients and partners to assess market demands and solutions.</li>
-                        <li>Conducted product market fit pitches, market sizing, and profitability analysis.</li>
-                        <li>Developed an in-depth knowledge library for app products, including how-to manuals.</li>
-                        <li>Delivered educational workshops and Q&A sessions for sales and customer success teams.</li>
-                        <li>Negotiated partnerships with global tech companies like Applovin, Adjust, Magnite, GeoEdge, Pangle, App Samurai, and Smaato.</li>
-                        <li>Collaborated with internal teams across development, product, and sales.</li>
-                        <li>Main Project: Programmatic ad monetization solution (Prebid Header Bidding SDK)</li>
-                    </ul>
-                </li>
-                <li><h3>Head of Operations - Japan | GumGum Inc. <br /> (Jan/2022 - July/2022) </h3>
-                    <ul>
-                        <li>Managed a 10-member operations team in Japan, including account managers, ad operations specialists, creative designers, and programmatic solution specialists.</li>
-                        <li>Collaborated with HR to create coaching and career-path plans, implementing them through weekly 1:1s and casual check-ins.</li>
-                        <li>Oversaw the implementation of GumGum’s advertising products and technologies, supporting both direct and programmatic campaigns.</li>
-                        <li>Worked closely with leadership teams from HQ in LA and regional HQ in Sydney to incorporate best practices and keep all parties updated on status and issues, adapting solutions for the Japanese market.</li>
-                        <li>Identified market needs to optimize operational excellence and customer service.</li>
-                    </ul>
-                </li>
-                <li><h3>Team Lead Technical Account Management | Adjust <br /> (Oct/2017 – Dec/2021) </h3>
-                    <ul>
-                        <li>Led a team of 15 account managers across Japan, Korea, India, and SEA, overseeing project coordination and training programs.</li>
-                        <li>Collaborated closely with regional sales and technical support leadership.</li>
-                        <li>Supported medium and large-scale Japanese and global clients, resolving technical challenges and maximizing product usage to enhance satisfaction and reduce churn.</li>
-                        <li>Provided tailored guidance and consultation to top market players across industries like Gaming, E-commerce, News, Telecom, Dating, Comics, Recruitment, Banking, and VOD.</li>
-                        <li>Worked daily with the customer success team to define client consultation strategies, including calls, QBRs, technical inquiries, and updates.</li>
-                        <li>Collected client feedback and feature requests, sharing with product and tech teams to drive new solutions.</li>
-                        <li>Participated in new feature development by onboarding beta clients and coordinating implementation with internal teams.</li>
-                        <li>Acted as a subject matter expert, advising on complex issues, attending critical client meetings, and speaking at seminars and educational workshops.</li>
-                    </ul>
-                </li>
-                <li><h3>Digital Advertising Operation | Adways Inc <br /> (Feb/2016 - Sep/2017)</h3>
-                    <ul>
-                        <li>Worked closely with sales team from proposal to deal closing by providing customized advertising strategy for client’s campaigns.</li>
-                        <li>Planned and managing inbound/outbound digital ads at several media platforms with focus on SNS (Facebook, Twitter, Google, nend, imobile, Amoad and etc.).</li>
-                        <li>Managed digital ads with average monthly budget of 20M¥.</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <hr/>
-            <h2>Skills</h2>
-            <ul>
+            <div>
+                <h2>Skills</h2>
+            </div>
+            <div>
+                <ul>
                 <li>
                     <h3>Language Skills</h3>
                     <ol>
@@ -112,6 +211,8 @@
                                 
                                 <li>Mobile App Dev.: 
                                     <ul>
+                                        <li>Xcode</li>
+                                        <li>Swift UI KIT</li>
                                         <li>Swift UI</li>
                                     </ul>
                                 </li>
@@ -155,26 +256,46 @@
                             </li>
                         </ol>
                     </li>
-
                 </li>
             </ul>
-
+            </div>
             <hr/>
-
-            <h2>Let's get in touch!</h2>
-            <p>Thank you very much for taking the time to read through my resume.
-                <br />
-                If you are interested in hiring me, please contact me through my info in the link below.
-            </p>
-            <a href="./contact.html">Contact Me</a>
+            <div>
+                <h2>Education</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        BSC / Tourism from Alexandria Universary, EGYPT | 2001 - 2005
+                        <ul>
+                            <li>4 years study specialized in Egyptology, economy, foreign languages (English/ Japanese) and tourism industry.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr/>
+            <div>
+                <h2>Let's get in touch!</h2>
+            </div>
+            <div>
+                <p>
+                    Thank you very much for taking the time to read through my resume.
+                    <br />
+                    If you are interested in hiring me, please contact me through my info in the link below.
+                </p>
+        </div>
+            <div>
+                <a href="https://www.linkedin.com/in/hamza-ashraf-jp/">Contact Me</a>
+            </div>
             <br /><br />
-            <img src="./assets/SM9A2762_ashraf.JPG" alt="my photo" height="200" />
+            <div></div><img src="./assets/ashraf_round.png" alt="my photo" height="200" />
             
             <hr />
 
             <footer>
-                <p>Copy right © 2024 Ashraf Hamza. All rights reserved.</p>
+                <p>Copy right © 2025 Ashraf Hamza. All rights reserved.</p>
             </footer>
+        </div>
 
     </body>
 </html>
